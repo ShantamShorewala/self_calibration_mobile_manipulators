@@ -38,7 +38,7 @@ def pose_estimation(img, mtx, dist, size):
 	img = aruco.drawDetectedMarkers(img.copy(), corners, ids)
 	for corner, id_ in zip(corners, ids):
 		rvec, tvec, _ = aruco.estimatePoseSingleMarkers(corner, size, mtx, dist)
-		img = aruco.drawAxis(img, mtx, dist, rvec, tvec, 0.01)
+		img = aruco.drawAxis(img, mtx, dist, rvec, tvec, 0.005)
 		dict_ids[id_[0]] = tvec
 
 	return img, dict_ids
@@ -69,6 +69,7 @@ def load_camera_matrix(filename):
 	dist = np.zeros((1,5))
 	row_cnt=0
 	for row in reader:
+		print row
 		if row_cnt<3:
 			mtx[row_cnt] = list(map(np.float32, row)) #[float(row[0]),float(row[1]),float(row[2])]
 		else:

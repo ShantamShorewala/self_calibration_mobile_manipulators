@@ -1,0 +1,8 @@
+prefix=/home/shantam/catkin_ws/install
+
+Name: camera_control_msgs
+Description: Description of camera_control_msgs
+Version: 0.2.1
+Cflags: -I/home/shantam/catkin_ws/install/include
+Libs: -L/home/shantam/catkin_ws/install/lib 
+Requires: actionlib_msgs sensor_msgs message_runtime

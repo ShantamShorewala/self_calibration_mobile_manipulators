@@ -1,0 +1,8 @@
+prefix=/home/shantam/catkin_ws/install
+
+Name: youbot_arm_5_pos
+Description: Description of youbot_arm_5_pos
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shantam/catkin_ws/install/lib 
+Requires: 

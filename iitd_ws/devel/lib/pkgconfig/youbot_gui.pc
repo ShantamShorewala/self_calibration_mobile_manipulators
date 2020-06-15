@@ -1,0 +1,8 @@
+prefix=/home/shantam/catkin_ws/devel
+
+Name: youbot_gui
+Description: Description of youbot_gui
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/shantam/catkin_ws/devel/lib 
+Requires: 

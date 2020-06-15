@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/camera_control_msgs_generate_messages_py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesActionGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesActionResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageActionResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesAction.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesActionFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageActionGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageAction.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageActionFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageAction.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageActionFeedback.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageActionGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabImagesResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabHDRImageGoal.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/_GrabAndSaveImageActionResult.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetBinning.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_GetCamProperties.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetBrightness.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetExposure.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetBool.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetROI.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetSleeping.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetGamma.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/_SetGain.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/msg/__init__.py"
+  "/home/shantam/catkin_ws/devel/lib/python2.7/dist-packages/camera_control_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/camera_control_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
